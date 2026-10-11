@@ -4,5 +4,18 @@
   "createdAt": "2026-10-11T09:57:13.713Z",
   "filename": "94f0ddf0-671a-466a-8b1d-f0af8a74fb9c.json",
   "geminiStarted": false,
-  "messages": []
+  "messages": [
+    {
+      "id": "2e111eff-ee12-4f0b-be99-c31925e3a7d9",
+      "role": "user",
+      "content": "Можешь сделать приложение?",
+      "status": "pending",
+      "model": "gemini-3.8-flash-high",
+      "client_type": "gemini-bridge",
+      "parent_message_id": null,
+      "created_at": "2026-10-11T09:58:27.175Z",
+      "sender": "ios",
+      "is_cancelled": false
+    }
+  ]
 }
