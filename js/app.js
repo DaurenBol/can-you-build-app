@@ -193,11 +193,13 @@ class QuizApp {
     updateProfileWidget() {
         const prof = window.storageManager.getProfile();
         const avatarEl = document.getElementById('user-avatar-badge');
+        const mainAvatarEl = document.getElementById('profile-main-avatar');
         const nameEl = document.getElementById('user-name-badge');
         const levelEl = document.getElementById('user-level-badge');
         const xpEl = document.getElementById('user-xp-badge');
 
         if (avatarEl) avatarEl.textContent = prof.avatar;
+        if (mainAvatarEl) mainAvatarEl.textContent = prof.avatar;
         if (nameEl) nameEl.textContent = prof.name;
         if (levelEl) levelEl.textContent = `Ур. ${prof.level}`;
         if (xpEl) xpEl.textContent = `${prof.xp} XP`;
