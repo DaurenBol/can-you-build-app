@@ -28,6 +28,18 @@
       "created_at": "2026-10-11T09:58:49.184Z",
       "sender": "macOS",
       "is_cancelled": false
+    },
+    {
+      "id": "72b3db27-ed23-4814-8c12-df8de7bdf248",
+      "role": "user",
+      "content": "Сделать платформу для прохождения тестов,",
+      "status": "pending",
+      "model": "gemini-3.8-flash-high",
+      "client_type": "gemini-bridge",
+      "parent_message_id": null,
+      "created_at": "2026-10-11T09:59:39.137Z",
+      "sender": "ios",
+      "is_cancelled": false
     }
   ]
 }
